@@ -17,4 +17,3 @@ Ed Carlos Dev.
 Veja a intro do projeto que disponibilizei abaixo:
 
 Visite o Site:  https://edcarlosconfessor.github.io/Projeto_IA_Final/
-<a>https://edcarlosconfessor.github.io/Projeto_IA_Final/</a>
