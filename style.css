@@ -11,9 +11,9 @@
 /* Aplicar estilo para posicionar a logo à esquerda */
 body {
    
-    width: 100%; /* Largura do corpo igual a 100% da largura do viewport */
+    width: 100%;   /* Largura do corpo igual a 100% da largura do viewport */
     height: 100vh; /* Altura do corpo igual a 100% da altura do viewport */
-    margin: 0; /* Remove a margem padrão do corpo da página */
+    margin: 0;     /* Remove a margem padrão do corpo da página */
 }
 
 html {
@@ -26,9 +26,9 @@ html {
 /*menu*/
 
 
-.logo-pizzahub {      /* EDY: Estilizar a logo para ficar colada na margem esquerda */
+.logo-IA {       /* EDY: Estilizar a logo para ficar colada na margem esquerda */
     width: 150px;      /* Largura do logo */
-    height: auto;     /* Altura do logo automática */
+    height: auto;      /* Altura do logo automática */
     cursor: pointer;
     position: absolute;
     top: 0;
@@ -36,7 +36,7 @@ html {
 }
 
 
-.logo-pizzahub img { /* EDY: Aqui estilizei o tamanho da LOGO */
+.logo-IA img { /* EDY: Aqui estilizei o tamanho da LOGO */
     width: 140%;     /* Altura dela*/
     height: 140%;    /* Largura dela */
     
@@ -141,14 +141,14 @@ html {
     transition: 0.2s;
 }
 
-#cardapio {
+#IA-inovando {
     padding: 30px;
 
 }
 
 .section-products {
-   /* background-image: url("imagens/fundo\ senario\ pizzas.jpg"); /*  */
-    background-size: cover; /* Ajuste o tamanho da imagem de fundo */
+   /* background-image: url("imagens/fundo\ senario\ imagens/inteligencia_04.gif"); /*  */
+    background-size: cover;      /* Ajuste o tamanho da imagem de fundo */
     background-position: center; /* Ajuste a posição da imagem de fundo */
     display: flex;
     align-items: center;
@@ -156,8 +156,8 @@ html {
 }
 /*
 .information h2 {
-    colo
-}
+
+    }
 */
 .information p {
     background-color: rgb(255, 255, 255); /* Aqui esta dando cor de fundo ao paragrafo. Sem sentido no momento */
@@ -166,7 +166,7 @@ html {
 }
 
 
-.imagens-cardapio {
+.imagens-IA-inovando {
     width: 280px;
     height: 280px;
     align-items: center;
@@ -183,7 +183,7 @@ html {
 }
 
 
-#cardapio > a { /*aqui chamamos nossa tag "a" para estilização*/
+#IA-inovando > a { /*aqui chamamos nossa tag "a" para estilização*/
     text-decoration: none; /*desabilitamos a decoração (sublinhado)*/
     font-family: Arial, Helvetica, sans-serif; /*familia de fonte*/
     font-size: 20px; /*tamanho da fonte */
@@ -193,12 +193,12 @@ html {
     text-align: end; /*alinhando ao centro*/
 
 }
-#cardapio > h2 {
+#IA-inovando > h2 {
     text-align: center;
     font-size: 40px;
 }
 
-/* ----------------   ARÉA DOS EFEITOS DO "TA COM FOME ?....    ------------------------- */
+/* ----------------   ARÉA DOS EFEITOS DO "O poder da IA: Transformando o mundo."....    ------------------------- */
 
 /* Estilo para o conteúdo principal */
 .conteudo-principal {
@@ -223,7 +223,7 @@ html {
     0%, 100% {
         width: 0;
     }
-    70% {  /* Velocidade de entrada do "\ta com fome ? ....... */
+    70% {  /* Velocidade de entrada do ""O poder da IA: Transformando o mundo." ....... */
         width: 100%;
     }
 }
@@ -249,7 +249,7 @@ html {
     }
 }
 
-/* ----------------   ARÉA DOS EFEITOS DO h2  " PIZZAHUB " TITULO    ------------------------- */
+/* ----------------   ARÉA DOS EFEITOS DO h2  " IA Brazil " TITULO    ------------------------- */
 
 
 /* Estilo para o h1 com o efeito de sombra pulsante */
@@ -282,4 +282,5 @@ html {
         box-shadow: 0 0 25px rgb(17, 0, 255);
     }
 }
+/*  -------------------------------------------   The End   -------------------------------  */
 
