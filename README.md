@@ -1,2 +1,2 @@
-# PizzaHubEdy
+# Projeto_IA
  Atualizado
